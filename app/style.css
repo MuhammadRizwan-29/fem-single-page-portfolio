@@ -1,0 +1,21 @@
+/* Variables */
+:root {
+  --black: #030303;
+  --medium_brown: #7a746e;
+  --white: #ffffff;
+  --light_cream: #fff7f0;
+  --galactic_blue: #755cde;
+  --summer_yellow: #f6a560;
+  --pink: #f39e9e;
+  --light_red: #eb7565;
+  --cyan: #61c4b7;
+  --dark_purple: #552049;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap");
+
+/* Desktop Version Code Here */
+
+/* Tablet Version Code Here */
+
+/* Mobile Version Code Here */
