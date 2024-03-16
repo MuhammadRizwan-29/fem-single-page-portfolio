@@ -215,6 +215,34 @@ button.slider--btn.prev {
 button.slider--btn.next {
   margin-left: 40px;
 }
+.book--call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background: var(--black);
+  padding: 2rem 2rem 2.5rem 2rem;
+  border-radius: 1rem;
+}
+.book--call .left {
+  flex: 3;
+}
+.book--call .right {
+  flex: 1;
+}
+.book--call h2 {
+  color: var(--white);
+  line-height: 2;
+}
+.book--call p {
+  width: 70%;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--white);
+}
+.book--call a {
+  background: var(--light-red);
+}
 /* Tablet Version Code Here */
 
 /* Mobile Version Code Here */
