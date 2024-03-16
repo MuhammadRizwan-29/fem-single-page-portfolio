@@ -236,7 +236,7 @@ button.slider--btn.next {
 }
 .book--call p {
   width: 70%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: var(--white);
 }
@@ -277,5 +277,20 @@ footer {
   .medium--inner__col,
   .cards-wrapper {
     gap: 1rem;
+  }
+  .cta__container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .book--call {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .book--call h2,
+  .book--call p {
+    width: 100%;
+    line-height: 1.2;
+    text-align: center;
   }
 }
