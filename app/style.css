@@ -243,6 +243,16 @@ button.slider--btn.next {
 .book--call a {
   background: var(--light-red);
 }
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
 /* Tablet Version Code Here */
 
 /* Mobile Version Code Here */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
