@@ -176,6 +176,45 @@ p {
 .cta__container a {
   background: var(--pink);
 }
+.slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  /* display: block; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* overflow-x: hidden; */
+  /* gap: 15px; */
+}
+.slides {
+  display: flex;
+}
+.slide {
+  width: 18.25%;
+  display: inline-block;
+  padding-bottom: 5rem;
+  transition: transform 0.5s;
+}
+.slide img {
+  border-radius: 1rem;
+}
+.slider--btn {
+  width: 4rem;
+  height: 4rem;
+  background: var(--black);
+  position: absolute;
+  border-radius: 40px;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+}
+button.slider--btn.prev {
+  margin-left: -40px;
+}
+button.slider--btn.next {
+  margin-left: 40px;
+}
 /* Tablet Version Code Here */
 
 /* Mobile Version Code Here */
