@@ -252,7 +252,30 @@ footer {
 /* Tablet Version Code Here */
 
 /* Mobile Version Code Here */
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+@media (max-width: 500px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .text__center--box h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .text__center--box p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+  }
+  .cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .cards-wrapper {
+    width: 100%;
+  }
+  .medium--inner__col,
+  .cards-wrapper {
+    gap: 1rem;
+  }
 }
